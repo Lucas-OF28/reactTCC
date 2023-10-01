@@ -8,23 +8,31 @@ import {
 
 const styles = StyleSheet.create({
   button: {
-    fontSize: 40,
+    fontWeight: '200',
+    color: "#f5f2f2",
+    fontSize: 35,
     height: Dimensions.get('window').width / 4,
     width: Dimensions.get('window').width / 4,
-    padding: 20,
-    backgroundColor: '#f0f0f0',
+    padding: 30,
+    backgroundColor: '#707070',
     textAlign: 'center',
-    borderWidth: 1,
-    borderColor: '#888',
+    borderWidth: 0.5,
+    borderColor: '#000',
   },
   operationButton: {
+    fontWeight: '200',
     color: '#fff',
-    backgroundColor: '#fa8231',
+    backgroundColor: '#fa9e0d',
   },
   buttonDouble: {
+    fontWeight: '200',
+    color: "#f5f2f2",
     width: (Dimensions.get('window').width / 4) * 2,
   },
   buttonTriple: {
+    fontWeight: '200',
+    color: "#f5f2f2",
+    backgroundColor: "#525252",
     width: (Dimensions.get('window').width / 4) * 3,
   }
 })

@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     justifyContent: 'flex-end',
-    backgroundColor: 'rgba(0,0,0,0.6)',
+    backgroundColor: 'rgba(48,48,48,1)',
     alignItems: 'flex-end',
   },
   displayValue: {
